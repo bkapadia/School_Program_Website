@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head> 
+		<meta charset="utf-8" />
+        <link rel="stylesheet" href="../navigation/assets/css/styles.css" />
+        <!-- Including the Lobster font from Google's Font Directory -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+        
+        
+        <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen"/>
+        <script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="../js/script.js" type="text/javascript"></script>
+<!-- TemplateBeginEditable name="doctitle" -->
+		<title>bkap</title>
+		<!-- TemplateEndEditable -->
+		
+</head>
+<body>
+<div id="wrapper">
+     <div id="title-banner">
+        <img src="../images/banner/givin-tree_banner.jpg" width="994" height="229" style="border:#000 thick solid; border-radius:8px; opacity:.3">
+     </div>
+     
+     <div id="topnav">
+     
+           
+            <ul class="fancyNav">
+                <li id="home"><a href="#home" class="homeIcon">Home</a></li>
+                
+                <li id="about"><a href="#about">About us</a></li>
+                
+                <li id="contact"><a href="#contact">Contact us</a></li>
+            </ul>
+        
+      
+     </div>
+    
+  <!-- TemplateBeginEditable name="head" -->
+		   
+          <div id="content-wrapper">
+          	<div id="content">
+            		<form method="post" action="" name="form1" id="program_form">
+         <ol>
+             <li> <label for="school"><p>School</p></label>
+             		<select id="schoolList">
+                    
+                    	<option value="Guelph"> Guelph</option>
+                        <option value="Ryerson"> Ryrson</option>
+                    </select>    
+                    
+           </li>
+             <li><label for="program"><p>Program</p></label>
+             	<select id="programList">
+                    	<option value="Science"> Science</option>
+                        <option value="Engineering"> Engineering</option>
+               </select> </li>
+             <li><label for"program2"><p> Program Specialization</p></label><select id="schoolList">
+                    
+                    	<option value="biology"> Biology</option>
+                        <option value="Biomedical Engineering"> Biomedical Engineering</option>
+                    </select>   	</li>
+             <li>
+               <input type= "submit" href="#" class="button gray" Sumbit name="submit" value="Go">
+             </li>
+         </ol>
+         	</form>
+            </div>
+     </div>
+     
+<!-- TemplateEndEditable -->
+     <div id="footer">
+         <p> footer &copy;2013 bkap </p>
+     </div>
+</div>
+
+</body>
+</html>
